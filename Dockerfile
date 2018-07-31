@@ -12,3 +12,4 @@ RUN apt-get install -y nginx
 COPY nginx.conf /etc/nginx/sites-available/default
 
 EXPOSE 8080
+
