@@ -5,7 +5,7 @@ docker run -dit --restart unless-stopped --name rproxy --net=host nginx
 
 # Logon  
 
-docker exec -it /<Container Name/> bash  
+docker exec -it Container-Name bash  
 
 # Cleanup 
 
